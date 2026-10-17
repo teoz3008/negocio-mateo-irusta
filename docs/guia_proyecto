@@ -1,0 +1,15 @@
+# Guía del proyecto
+Este proyecto consiste en desarrollar una aplicación para gestionar un negocio.
+- Base de datos
+La base de datos contiene cinco tablas relacionadas:
+- Categorías
+- Productos
+- Clientes
+- Pedidos
+- Detalle de pedidos
+
+## Métodos HTTP
+Se documentan los métodos GET, POST, PUT, PATCH y DELETE.
+
+## PokéAPI
+Se utiliza una API pública para consultar información de Pokémon.
