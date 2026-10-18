@@ -1,6 +1,6 @@
 # negocio-mateo-irusta
 Practica N°1 -Datos del estudiante
-(VERSION DE LA RAMA 1)
+(VERSION DE LA RAMA BBBB)
 
 - Apellidos: Irusta Perez
 - Nombres: Mateo Cristian
