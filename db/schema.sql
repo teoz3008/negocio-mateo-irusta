@@ -30,7 +30,7 @@ CREATE TABLE pedidos (
 CREATE TABLE detalle_pedido (
     id INT AUTO_INCREMENT PRIMARY KEY,
     pedido_id INT AUTO_INCREMENT NOT NULL,
-    producto_id INT AUTO_INCREMENT NOT NULL,
+    producto_id INT NOT NULL,
     cantidad INT NOT NULL,
     precio_unitario DECIMAL(10,2) NOT NULL,
     FOREIGN KEY (pedido_id) REFERENCES pedidos(id),

@@ -29,15 +29,18 @@ async function buscarPokemon() {
         const imagen =
             pokemon.sprites.other["official-artwork"].front_default ||
             pokemon.sprites.front_default;
+        const tipos = pokemon.types
+              .map(tipo => tipo.type.name)
+              .join(", ");
 
-        resultado.innerHTML = `
-            <h2>${pokemon.name.toUpperCase()}</h2>
+        resultado.innerHTML = `<h2>${pokemon.name.toUpperCase()}</h2>
 
             <img src="${imagen || ""}"
                  alt="${pokemon.name}"
                  width="200">
 
             <p><strong>ID:</strong> ${pokemon.id}</p>
+            <p><strong>Tipos:</strong> ${tipos}</p>
 
             <p><strong>Altura:</strong> ${pokemon.height / 10} m</p>
 
